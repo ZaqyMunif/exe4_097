@@ -59,7 +59,6 @@ namespace exe4_097
         }
         static void Main(string[] args)
         {
-            int size = 
             Stacks s = new Stacks();
             while (true)
             {
