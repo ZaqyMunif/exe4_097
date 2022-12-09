@@ -10,10 +10,15 @@ namespace exe4_097
     {
         public char info;
         public Node next;
-        
+        public Node(char i, Node n)
+        {
+            info = i;
+            next = n;
+        }
     }
-    internal class Program
+    class Stacks
     {
+        Node top;
         static void Main(string[] args)
         {
         }
