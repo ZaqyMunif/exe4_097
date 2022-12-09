@@ -8,9 +8,9 @@ namespace exe4_097
 {
     class Node
     {
-        public char info;
+        public string info;
         public Node next;
-        public Node(char i, Node n)
+        public Node(string i, Node n)
         {
             info = i;
             next = n;
@@ -19,6 +19,10 @@ namespace exe4_097
     class Stacks
     {
         Node top;
+        public Stacks()
+        {
+            top = null;
+        }
         static void Main(string[] args)
         {
         }
