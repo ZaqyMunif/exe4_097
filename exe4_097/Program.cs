@@ -23,6 +23,13 @@ namespace exe4_097
         {
             top = null;
         }
+        bool empty()
+        {
+            if (top == null)
+                return (true);
+            else
+                return (false);
+        }
         static void Main(string[] args)
         {
         }
