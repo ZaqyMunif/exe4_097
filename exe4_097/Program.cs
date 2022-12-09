@@ -6,6 +6,12 @@ using System.Threading.Tasks;
 
 namespace exe4_097
 {
+    class Node
+    {
+        public char info;
+        public Node next;
+        
+    }
     internal class Program
     {
         static void Main(string[] args)
