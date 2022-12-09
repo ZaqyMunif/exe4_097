@@ -30,6 +30,14 @@ namespace exe4_097
             else
                 return (false);
         }
+        public void push(string element)
+        {
+            Node zaqy;
+            zaqy = new Node(element, null);
+            zaqy.next = top;
+            top = zaqy;
+            Console.WriteLine("\n" + element + "pushed. ");
+        }
         static void Main(string[] args)
         {
         }
