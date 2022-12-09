@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace exe4_097
 {
     class Node
-    {
+    { 
         public string info;
         public Node next;
         public Node(string i, Node n)
@@ -59,6 +59,7 @@ namespace exe4_097
         }
         static void Main(string[] args)
         {
+            int size = 
             Stacks s = new Stacks();
             while (true)
             {
@@ -73,7 +74,7 @@ namespace exe4_097
                 switch (ch)
                 {
                     case '1':
-                        Console.WriteLine("\nEnter a number: ");
+                        Console.WriteLine("\nEnter a element: ");
                         string num = Convert.ToString(Console.ReadLine());
                         s.push(num);
                         break;
