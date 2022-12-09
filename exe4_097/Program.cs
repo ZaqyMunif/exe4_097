@@ -59,6 +59,11 @@ namespace exe4_097
         }
         static void Main(string[] args)
         {
+            Stacks s = new Stacks();
+            while (true)
+            {
+
+            }
         }
     }
 }
