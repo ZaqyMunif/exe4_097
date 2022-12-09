@@ -43,6 +43,10 @@ namespace exe4_097
             Console.WriteLine("\nThe popped element is: " + top.info);
             top = top.next;
         }
+        public void display()
+        {
+
+        }
         static void Main(string[] args)
         {
         }
